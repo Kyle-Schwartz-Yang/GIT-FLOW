@@ -14,7 +14,7 @@ function shortProposal(str, length) {
 console.log(shortProposal(sentence, 15));
 
 
-// $ featured/add-fn-welcome
+// $ featured/create-fnc-welcome
 
 function showMessage(message) {
   return message;
@@ -27,3 +27,6 @@ console.log(showMessage('WELCOME to GIT FLOW'));
 const arr = [1, 2, 3];
 console.log(arr[0]);
 
+
+
+const obj = { name: 'Harry', surname: 'Simposin' };
