@@ -33,4 +33,4 @@ const obj = { name: 'Harry', surname: 'Simposin' };
 
 
 
-console.log(fdfdfdfd) //ERROR
+console.log(obj.surname) //ERROR
