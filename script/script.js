@@ -23,5 +23,7 @@ console.log(showMessage('WELCOME to GIT FLOW'));
 
 
 
-
+//Создание массива!
+const arr = [1, 2, 3];
+console.log(arr[0]);
 
