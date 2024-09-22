@@ -1,5 +1,6 @@
 
-// $ featured/create-fnc-short
+// Необходимо создать функции shortProposal сокращения текста ...
+// $ featured/create-fn-short
 
 const sentence = 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, minus.';
 
@@ -18,7 +19,13 @@ console.log(shortProposal(sentence, 15));
 function showMessage(message) {
   return message;
 }
-console.log(showMessage('welcome'));
+console.log(showMessage('WELCOME to GIT FLOW'));
+
+
+
+//Создание массива!
+const arr = [1, 2, 3];
+console.log(arr[0]);
 
 
 
