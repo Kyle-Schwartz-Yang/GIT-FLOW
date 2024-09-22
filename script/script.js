@@ -1,5 +1,4 @@
 
-// Необходимо создать функции shortProposal сокращения текста ...
 // $ featured/create-fnc-short
 
 const sentence = 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, minus.';
@@ -14,10 +13,13 @@ function shortProposal(str, length) {
 console.log(shortProposal(sentence, 15));
 
 
-// $ featured/add-fnc-welcome
+// $ featured/create-fnc-welcome
 
 function showMessage(message) {
   return message;
 }
 console.log(showMessage('welcome'));
 
+
+
+const obj = { name: 'Harry', surname: 'Simposin' };
