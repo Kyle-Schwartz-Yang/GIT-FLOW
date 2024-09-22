@@ -5,5 +5,9 @@ console.log(shortProposal(str, length));
 
 
 // $ featured/add-fnc-welcome
+
+function showMessage(message) {
+  return message;
+}
 console.log(showMessage('welcome'));
 
