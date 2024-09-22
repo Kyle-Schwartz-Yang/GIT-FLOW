@@ -30,3 +30,6 @@ console.log(arr[0]);
 
 
 const obj = { name: 'Harry', surname: 'Simposin' };
+
+
+console.log(obj.name);
