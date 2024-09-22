@@ -1,7 +1,17 @@
 
 // Необходимо создать функции shortProposal сокращения текста ...
 // $ featured/create-fnc-short
-console.log(shortProposal(str, length));
+
+const sentence = 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, minus.';
+
+function shortProposal(str, length) {
+  if (str.length > length) {
+    return str = str.slice(0, length) + '...';
+  }
+  return str;
+}
+
+console.log(shortProposal(sentence, 15));
 
 
 // $ featured/add-fnc-welcome
