@@ -32,4 +32,7 @@ console.log(arr[0]);
 const obj = { name: 'Harry', surname: 'Simposin' };
 
 
-console.log(obj.name);
+
+console.log(obj.surname); // success
+console.log('Привет Harry');
+console.log('hunter achievements')
