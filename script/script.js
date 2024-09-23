@@ -34,3 +34,4 @@ const obj = { name: 'Harry', surname: 'Simposin' };
 
 
 console.log(obj.surname); // success
+console.log('Привет Harry');
